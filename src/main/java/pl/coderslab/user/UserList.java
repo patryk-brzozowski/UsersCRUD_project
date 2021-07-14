@@ -15,7 +15,6 @@ public class UserList extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         UserDao userDao = new UserDao();
-        response.setContentType("text/html");
 
         List<User> usersList = Arrays.asList(userDao.findAll());
         request.setAttribute("users", usersList);

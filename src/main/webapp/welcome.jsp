@@ -26,7 +26,7 @@
     <!-- Card Body -->
     <div class="card-body">
       <a href='<c:url value="/user/list"/>' class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-              class="fas fa-download fa-sm text-white-50"></i> Wyświetl listę użytkowników</a>
+              class="fas fa-sm text-white-50"></i> Wyświetl listę użytkowników</a>
     </div>
   </div>
 

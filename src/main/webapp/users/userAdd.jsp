@@ -40,6 +40,8 @@
                    </div>
                    <input type="submit" value="Zapisz" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                </form>
+                <a href='<c:url value="/user/list"/>' class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                        class="fas fa-sm text-white-50"></i> Powrót</a>
             </div>
         </div>
 
